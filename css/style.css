@@ -1,22 +1,42 @@
-.bg-nav{
+header {
+    position: sticky;
+}
+
+.bg-nav {
     background-color: #FFFFFF;
 }
-.text-nav{
-    color: #0B2A4A;
+
+.text-nav {
+    color: #F58220;
 }
-.primary-btn{
+
+.nav-link:hover {
+    color: #F58220;
+    background-color: #0B2A4A;
+    border: 2px solid #F58220;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.active-menu{
+    color: #F58220;
+    background-color: #0B2A4A;
+    border: 2px solid #F58220;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+.primary-btn {
     color: #F58220;
     background-color: #0B2A4A;
 }
-.primary-btn:hover{
+
+.primary-btn:hover {
     color: #0B2A4A;
     background-color: #F58220;
 }
-.page-bg{
+
+.page-bg {
     background-color: #a5bfe6;
-}
-.bg-images{
-    background-image: url(../images/cover_pic.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
