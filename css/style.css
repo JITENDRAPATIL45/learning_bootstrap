@@ -26,6 +26,23 @@ header {
     padding-bottom: 2px;
 }
 
+/* .section-bg{
+    background-color: #0B2A4A;
+} */
+
+.section-text{
+    color: #F58220;
+}
+.section-primary-btn {
+    color: #0B2A4A;
+    background-color: #F58220;
+}
+
+.section-primary-btn:hover {
+    color: #F58220;
+    background-color: #0B2A4A;
+    border: 4px solid #F58220;
+}
 
 .primary-btn {
     color: #F58220;
@@ -38,5 +55,16 @@ header {
 }
 
 .page-bg {
-    background-color: #a5bfe6;
+    background-color: #0B2A4A;
+}
+
+.card{
+    background-color: #F58220;
+    color: #0B2A4A;
+}
+
+.card:hover{
+    background-color: #0B2A4A;
+    color: #F58220;
+    border: 4px solid #F58220;
 }
