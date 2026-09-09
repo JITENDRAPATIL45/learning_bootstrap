@@ -122,7 +122,6 @@
         </header>
 
         <main>
-            <section>
                 <section>
                     <div class="container p-3">
                         <div class="row">
@@ -212,7 +211,6 @@
                         </div>
                     </div>
                 </section>
-            </section>
 
             <!-- Modal -->
             <div class="modal fade" id="BMW_330_Li" tabindex="-1"
@@ -222,7 +220,7 @@
                         <div class="modal-header secondery-bg ">
                             <h1 class="modal-title fs-5 secondery-text"
                                 id="exampleModalLabel">BMW 330 Li</h1>
-                            <button type="button" class="btn-close secondery-text"
+                            <button type="button" class="btn-close third-bg"
                                 data-bs-dismiss="modal"
                                 aria-label="Close"></button>
                         </div>
@@ -264,8 +262,8 @@
                                 <button type="button"
                                             class="btn secodery-btn"
                                             data-bs-toggle="modal"
-                                            data-bs-target="#book_meation">
-                                            View more
+                                            data-bs-target="#book_meating">
+                                            Book meating
                                         </button>
                         </div>
                     </div>
@@ -280,7 +278,7 @@
                         <div class="modal-header secondery-bg ">
                             <h1 class="modal-title fs-5 secondery-text"
                                 id="exampleModalLabel">BMW M2</h1>
-                            <button type="button" class="btn-close"
+                            <button type="button" class="btn-close third-bg"
                                 data-bs-dismiss="modal"
                                 aria-label="Close"></button>
                         </div>
@@ -317,8 +315,12 @@
                             </div>
                         </div>
                         <div class="modal-footer secondery-bg">
-                            <button type="button" class="btn primary-btn"
-                                data-bs-dismiss="modal">Book meating</button>
+                            <button type="button"
+                                class="btn secodery-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#book_meating">
+                                Book Meating
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -332,7 +334,7 @@
                         <div class="modal-header secondery-bg ">
                             <h1 class="modal-title fs-5 secondery-text"
                                 id="exampleModalLabel">BMW M4</h1>
-                            <button type="button" class="btn-close"
+                            <button type="button" class="btn-close third-bg"
                                 data-bs-dismiss="modal"
                                 aria-label="Close"></button>
                         </div>
@@ -369,8 +371,12 @@
                             </div>
                         </div>
                         <div class="modal-footer secondery-bg">
-                            <button type="button" class="btn primary-btn"
-                                data-bs-dismiss="modal">Book meating</button>
+                            <button type="button"
+                                class="btn secodery-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#book_meating">
+                                Book meating
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -384,7 +390,7 @@
                         <div class="modal-header secondery-bg ">
                             <h1 class="modal-title fs-5 secondery-text"
                                 id="exampleModalLabel">BMW M5</h1>
-                            <button type="button" class="btn-close"
+                            <button type="button" class="btn-close third-bg"
                                 data-bs-dismiss="modal"
                                 aria-label="Close"></button>
                         </div>
@@ -421,54 +427,144 @@
                             </div>
                         </div>
                         <div class="modal-footer secondery-bg">
-                            <button type="button" class="btn primary-btn"
-                                data-bs-dismiss="modal">Book meating</button>
+                            <button type="button"
+                                class="btn secodery-btn"
+                                data-bs-toggle="modal"
+                                data-bs-target="#book_meating">
+                                Book meating
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="modal fade" id="book_meation" tabindex="-1"
+           <!-- meating booking model -->
+            <div class="modal fade" id="book_meating" tabindex="-1"
                 aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable modal-lg">
                     <div class="modal-content">
                         <div class="modal-header secondery-bg ">
                             <h1 class="modal-title fs-5 secondery-text"
                                 id="exampleModalLabel">book meation</h1>
-                            <button type="button" class="btn-close secondery-text"
+                            <button type="button" class="btn-close third-bg"
                                 data-bs-dismiss="modal"
                                 aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <div class="container">
                                 <div class="row">
-                                    <form action="">
-                                        <label for="">Full Name: </label>
-                                        <input type="text" placeholder="Enter Full Name">
-
-                                        <label for="">Email: </label>
-                                        <input type="email" placeholder="Enter Full Name">
-
-
-
-                                    </form>
+                                    <form action>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label secondery-text">Full
+                                                Name</label>
+                                            <input type="taxt" class="form-control"
+                                                placeholder="Enter Full Name :">
+                                        </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1"
+                                            class="form-label secondery-text">Email
+                                            address</label>
+                                        <input type="email" class="form-control"
+                                            placeholder="example@gmail.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1"
+                                            class="form-label secondery-text">Select Date and
+                                            time</label>
+                                        <input type="datetime" class="form-control">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label
+                                            for="exampleFormControlTextarea1 "
+                                            class="form-label secondery-text">Comente</label>
+                                        <textarea class="form-control"
+                                            id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
+                                </form>
                                     
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="modal-footer secondery-bg">
-                            <!-- <button type="button" class="btn primary-btn"
-                                data-bs-dismiss="modal">Book meating</button> -->
-                                <button type="button"
+                            <button type="button" class="btn primary-btn"
+                                data-bs-dismiss="modal" onclick="meating_book()">Book meating</button>
+                                <!-- <button type="button"
                                             class="btn secodery-btn"
                                             data-bs-toggle="modal"
-                                            data-bs-target="#book_meation">
+                                            data-bs-target="#book_meating">
                                             Book meating
-                                        </button>
+                                        </button> -->
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- meating booking model --><!-- meating booking model -->
+            <div class="modal fade" id="book_meating" tabindex="-1"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header secondery-bg ">
+                            <h1 class="modal-title fs-5 secondery-text"
+                                id="exampleModalLabel">book meation</h1>
+                            <button type="button" class="btn-close third-bg"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <form action>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1"
+                                                class="form-label secondery-text">Full
+                                                Name</label>
+                                            <input type="taxt" class="form-control"
+                                                placeholder="Enter Full Name :">
+                                        </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1"
+                                            class="form-label secondery-text">Email
+                                            address</label>
+                                        <input type="email" class="form-control"
+                                            placeholder="example@gmail.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1"
+                                            class="form-label secondery-text">Select Date and
+                                            time</label>
+                                        <input type="datetime" class="form-control">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label
+                                            for="exampleFormControlTextarea1 "
+                                            class="form-label secondery-text">Comente</label>
+                                        <textarea class="form-control"
+                                            id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
+                                </form>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="modal-footer secondery-bg">
+                            <button type="button" class="btn primary-btn"
+                                data-bs-dismiss="modal" onclick="meating_book()">Book meating</button>
+                                <!-- <button type="button"
+                                            class="btn secodery-btn"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#book_meating">
+                                            Book meating
+                                        </button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- meating booking model -->
         </main>
 
         <footer class="secondery-bg mt-3 pt-3">
@@ -514,9 +610,16 @@
             </div>
         </footer>
 
+        <script>
+            function meating_book(){
+                alert("Meating is Booked");
+            }
+        </script>
+
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous"></script>
+
     </body>
 </html>
