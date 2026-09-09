@@ -11,6 +11,9 @@
             integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
             crossorigin="anonymous">
 
+            <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body class="page-bg ">
@@ -59,23 +62,7 @@
                                 </li>
                             </li>
 
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link text-nav dropdown-toggle"
-                                    href="#"
-                                    role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    SERVICES
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item text-nav"
-                                            href="#">Car Service</a></li>
-                                    <li><a class="dropdown-item text-nav"
-                                            href="#">Maintenance</a></li>
-                                    <li><a class="dropdown-item text-nav"
-                                            href="#">Genuine Spare
-                                            Parts</a></li>
-                                </ul>
-                            </li> -->
+                            
 
                             <li class="nav-item">
                                 <a class="nav-link text-nav secondery-text"
@@ -111,10 +98,7 @@
                                     href="contact.html">Contact</a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link text-nav secondery-text"
-                                    href="test_drive.html">Book a Test
-                                    Drive</a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -273,7 +257,7 @@
             <div class="modal fade" id="BMW_M2" tabindex="-1"
                 aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div
-                    class="modal-dialog modal-dialog-scrbolideollable modal-xl">
+                    class="modal-dialog modal-dialog-scrollable modal-xl">
                     <div class="modal-content">
                         <div class="modal-header secondery-bg ">
                             <h1 class="modal-title fs-5 secondery-text"
@@ -329,7 +313,7 @@
             <div class="modal fade" id="BMW_M4" tabindex="-1"
                 aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div
-                    class="modal-dialog modal-dialog-scrbolideollable modal-xl">
+                    class="modal-dialog modal-dialog-scrollable modal-xl">
                     <div class="modal-content">
                         <div class="modal-header secondery-bg ">
                             <h1 class="modal-title fs-5 secondery-text"
@@ -385,7 +369,7 @@
             <div class="modal fade" id="BMW_M5" tabindex="-1"
                 aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div
-                    class="modal-dialog modal-dialog-scrbolideollable modal-xl">
+                    class="modal-dialog modal-dialog-scrollable modal-xl">
                     <div class="modal-content">
                         <div class="modal-header secondery-bg ">
                             <h1 class="modal-title fs-5 secondery-text"
@@ -501,69 +485,6 @@
                     </div>
                 </div>
             </div>
-            <!-- meating booking model --><!-- meating booking model -->
-            <div class="modal fade" id="book_meating" tabindex="-1"
-                aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-scrollable modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header secondery-bg ">
-                            <h1 class="modal-title fs-5 secondery-text"
-                                id="exampleModalLabel">book meation</h1>
-                            <button type="button" class="btn-close third-bg"
-                                data-bs-dismiss="modal"
-                                aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="container">
-                                <div class="row">
-                                    <form action>
-                                        <div class="mb-3">
-                                            <label for="exampleFormControlInput1"
-                                                class="form-label secondery-text">Full
-                                                Name</label>
-                                            <input type="taxt" class="form-control"
-                                                placeholder="Enter Full Name :">
-                                        </div>
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlInput1"
-                                            class="form-label secondery-text">Email
-                                            address</label>
-                                        <input type="email" class="form-control"
-                                            placeholder="example@gmail.com">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlInput1"
-                                            class="form-label secondery-text">Select Date and
-                                            time</label>
-                                        <input type="datetime" class="form-control">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label
-                                            for="exampleFormControlTextarea1 "
-                                            class="form-label secondery-text">Comente</label>
-                                        <textarea class="form-control"
-                                            id="exampleFormControlTextarea1"
-                                            rows="3"></textarea>
-                                    </div>
-                                </form>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="modal-footer secondery-bg">
-                            <button type="button" class="btn primary-btn"
-                                data-bs-dismiss="modal" onclick="meating_book()">Book meating</button>
-                                <!-- <button type="button"
-                                            class="btn secodery-btn"
-                                            data-bs-toggle="modal"
-                                            data-bs-target="#book_meating">
-                                            Book meating
-                                        </button> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
             <!-- meating booking model -->
         </main>
 
@@ -593,18 +514,19 @@
                         </ul>
                     </div>
                     <div class="col-md-3 secondery-text">
-                        <h2>Address </h2>
-                        <p>Patil Dealership, khote nagar, Dharangaon, jalgaon,
-                            maharashtra 425105</p>
+                        <h2><i class="bi bi-geo-fill"></i> Address </h2>
+                        <pre>    
+ Patil Dealership, khote nagar,
+ Dharangaon, jalgaon, maharashtra
+ 425105</pre>
                     </div>
                     <div class="col-md-3 secondery-text">
-                        <h2>Contact </h2>
-                        <h5>Contact no:</h5>
-                        <h6> +91 9545952551</h6>
-                        <h6> +91 9503232501</h6>
-                        <h5>Email ID:</h5>
-                        <h6> patildealership45@gmail.com</h6>
-                        <h6> patildealer45@gmail.com</h6>
+                        
+                        <h2><i class="bi bi-telephone-fill"></i> Contact no:</h2>
+                        <pre>   +91 9545952551 
+   +91 9503232501 </pre>
+                        <h2><i class="bi bi-envelope-fill"></i> Email ID:</h2>
+                        <pre>    patildealership45@gmail.com</pre>
                     </div>
                 </div>
             </div>
