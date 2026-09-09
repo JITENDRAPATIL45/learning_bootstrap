@@ -21,6 +21,10 @@ header {
     background-color: #0B2A4A;
 }
 
+.third-bg{
+    background-color: #F58220;
+}
+
 .nav-link:hover {
     color: #0B2A4A;
     background-color: #F58220;
@@ -87,4 +91,22 @@ header {
 
 .list-style-none {
     list-style: none;
+}
+
+.icon_size{
+    font-size: 50px;
+}
+
+.align_center{
+    display: flex;
+    justify-content: center;
+
+}
+.bi-pin-map-fill{
+    font-size: 25px;
+    color: #0B2A4A;
+}
+.bi-telephone{
+    font-size: 25px;
+    color: #0B2A4A;
 }
