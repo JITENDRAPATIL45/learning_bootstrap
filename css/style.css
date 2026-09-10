@@ -45,6 +45,7 @@ header {
 .secodery-btn {
     color: #0B2A4A;
     background-color: #F58220;
+    
 }
 
 .secodery-btn:hover {
@@ -109,4 +110,8 @@ header {
 .bi-telephone{
     font-size: 25px;
     color: #0B2A4A;
+}
+
+.card_height{
+    height: 530px;
 }
