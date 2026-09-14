@@ -341,7 +341,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <h3>Bugatti La Voiture
-                                        Noire</h3>
+                                            Noire</h3>
                                         <ul>
                                             <li>Engine: 8.0L Quad-Turbo W16</li>
                                             <li>Power: 1,479 HP</li>
@@ -474,7 +474,7 @@
                                                     for="exampleFormControlInput1"
                                                     class="form-label secondery-text">Full
                                                     Name</label>
-                                                <input type="taxt"
+                                                <input id="nameInput" type="taxt"
                                                     class="form-control"
                                                     placeholder="Enter Full Name :">
                                             </div>
@@ -511,9 +511,8 @@
                             </div>
 
                             <div class="modal-footer secondery-bg">
-                                <button type="button" class="btn primary-btn"
-                                    data-bs-dismiss="modal"
-                                    onclick="meating_book()">Book
+                                <button id="bookMeetingBtn" type="button" class="btn primary-btn"
+                                    data-bs-dismiss="modal">Book
                                     meating</button>
                                 <!-- <button type="button"
                                             class="btn secodery-btn"
@@ -578,9 +577,16 @@
             </footer>
 
             <script>
-            function meating_book(){
-                alert("Meating is Booked");
-            }
+            document.getElementById("bookMeetingBtn").addEventListener("click", function() {
+                let name = document.getElementById("nameInput").value;
+
+                if (name.trim() === "") {
+                    alert("Please enter your name!");
+                    return;
+                }
+
+                alert("Thank you " + name + ", Your Meating is Booked ");
+            });
         </script>
             <script
                 src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
